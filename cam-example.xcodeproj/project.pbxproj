@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80B775AC66051B5B421FA7AC /* libPods-cam-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FE9868882C0892E99FFC29 /* libPods-cam-example.a */; };
 		98B2DC721DA68FA50069C742 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B2DC711DA68FA50069C742 /* main.m */; };
 		98B2DC751DA68FA50069C742 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B2DC741DA68FA50069C742 /* AppDelegate.m */; };
 		98B2DC781DA68FA50069C742 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B2DC771DA68FA50069C742 /* ViewController.m */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F32F66551A1CD61A62B9DE3 /* Pods-cam-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cam-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cam-example/Pods-cam-example.debug.xcconfig"; sourceTree = "<group>"; };
 		98B2DC6D1DA68FA50069C742 /* cam-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cam-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B2DC711DA68FA50069C742 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98B2DC731DA68FA50069C742 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		98B2DC7C1DA68FA50069C742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98B2DC7F1DA68FA50069C742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98B2DC811DA68FA50069C742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5FE9868882C0892E99FFC29 /* libPods-cam-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cam-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6811FA37B9C938452EC11DC /* Pods-cam-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cam-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-cam-example/Pods-cam-example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B775AC66051B5B421FA7AC /* libPods-cam-example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				98B2DC6F1DA68FA50069C742 /* cam-example */,
 				98B2DC6E1DA68FA50069C742 /* Products */,
+				BAE7A8C10C553051C1E1B6D4 /* Pods */,
+				A09B9F1FD2D70CE8ABDEAE77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +86,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A09B9F1FD2D70CE8ABDEAE77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5FE9868882C0892E99FFC29 /* libPods-cam-example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAE7A8C10C553051C1E1B6D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F32F66551A1CD61A62B9DE3 /* Pods-cam-example.debug.xcconfig */,
+				F6811FA37B9C938452EC11DC /* Pods-cam-example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98B2DC841DA68FA50069C742 /* Build configuration list for PBXNativeTarget "cam-example" */;
 			buildPhases = (
+				562E1F681ACE2305EEC8171B /* [CP] Check Pods Manifest.lock */,
 				98B2DC691DA68FA50069C742 /* Sources */,
 				98B2DC6A1DA68FA50069C742 /* Frameworks */,
 				98B2DC6B1DA68FA50069C742 /* Resources */,
+				AB7A1BDC2263F56B4AB17736 /* [CP] Embed Pods Frameworks */,
+				15A9538DE159F18C66C5F2EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15A9538DE159F18C66C5F2EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cam-example/Pods-cam-example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		562E1F681ACE2305EEC8171B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB7A1BDC2263F56B4AB17736 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cam-example/Pods-cam-example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		98B2DC691DA68FA50069C742 /* Sources */ = {
@@ -268,6 +343,7 @@
 		};
 		98B2DC851DA68FA50069C742 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F32F66551A1CD61A62B9DE3 /* Pods-cam-example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "cam-example/Info.plist";
@@ -279,6 +355,7 @@
 		};
 		98B2DC861DA68FA50069C742 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6811FA37B9C938452EC11DC /* Pods-cam-example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "cam-example/Info.plist";
@@ -307,6 +384,7 @@
 				98B2DC861DA68FA50069C742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
