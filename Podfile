@@ -1,9 +1,10 @@
 # Uncomment this line to define a global platform for your project
-# platform :ios, '9.0'
+### CAM - please provide a sensible value here, cocoapods defaults this to iOS 4.3 currently
+platform :ios, '8.0'
 
 target 'cam-example' do
   # Uncomment this line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
+  use_frameworks!
 
   # Pods for cam-example
 

@@ -7,17 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80B775AC66051B5B421FA7AC /* libPods-cam-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FE9868882C0892E99FFC29 /* libPods-cam-example.a */; };
+		8E0DA20C8DDC84B9C6033ABB /* Pods_cam_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD65068703D3405DD983730 /* Pods_cam_example.framework */; };
 		98B2DC721DA68FA50069C742 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B2DC711DA68FA50069C742 /* main.m */; };
 		98B2DC751DA68FA50069C742 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B2DC741DA68FA50069C742 /* AppDelegate.m */; };
 		98B2DC781DA68FA50069C742 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B2DC771DA68FA50069C742 /* ViewController.m */; };
 		98B2DC7B1DA68FA50069C742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B2DC791DA68FA50069C742 /* Main.storyboard */; };
 		98B2DC7D1DA68FA50069C742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B2DC7C1DA68FA50069C742 /* Assets.xcassets */; };
 		98B2DC801DA68FA50069C742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B2DC7E1DA68FA50069C742 /* LaunchScreen.storyboard */; };
+		98B2DC8A1DA6A04D0069C742 /* MyAssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B2DC891DA6A04D0069C742 /* MyAssetManager.m */; };
+		98B2DC8D1DA6A5940069C742 /* MyAssetItemImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B2DC8C1DA6A5940069C742 /* MyAssetItemImage.m */; };
+		98B2DC901DA6B3D10069C742 /* MyAssetImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B2DC8F1DA6B3D10069C742 /* MyAssetImageView.m */; };
+		98B2DC931DA6B5020069C742 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B2DC921DA6B5020069C742 /* MyTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F32F66551A1CD61A62B9DE3 /* Pods-cam-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cam-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cam-example/Pods-cam-example.debug.xcconfig"; sourceTree = "<group>"; };
+		6AD65068703D3405DD983730 /* Pods_cam_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cam_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B2DC6D1DA68FA50069C742 /* cam-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cam-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B2DC711DA68FA50069C742 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98B2DC731DA68FA50069C742 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,7 +33,14 @@
 		98B2DC7C1DA68FA50069C742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98B2DC7F1DA68FA50069C742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98B2DC811DA68FA50069C742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5FE9868882C0892E99FFC29 /* libPods-cam-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cam-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B2DC881DA6A04D0069C742 /* MyAssetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAssetManager.h; sourceTree = "<group>"; };
+		98B2DC891DA6A04D0069C742 /* MyAssetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAssetManager.m; sourceTree = "<group>"; };
+		98B2DC8B1DA6A5940069C742 /* MyAssetItemImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAssetItemImage.h; sourceTree = "<group>"; };
+		98B2DC8C1DA6A5940069C742 /* MyAssetItemImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAssetItemImage.m; sourceTree = "<group>"; };
+		98B2DC8E1DA6B3D10069C742 /* MyAssetImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAssetImageView.h; sourceTree = "<group>"; };
+		98B2DC8F1DA6B3D10069C742 /* MyAssetImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAssetImageView.m; sourceTree = "<group>"; };
+		98B2DC911DA6B5020069C742 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		98B2DC921DA6B5020069C742 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 		F6811FA37B9C938452EC11DC /* Pods-cam-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cam-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-cam-example/Pods-cam-example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80B775AC66051B5B421FA7AC /* libPods-cam-example.a in Frameworks */,
+				8E0DA20C8DDC84B9C6033ABB /* Pods_cam_example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,8 +77,11 @@
 		98B2DC6F1DA68FA50069C742 /* cam-example */ = {
 			isa = PBXGroup;
 			children = (
+				98B2DC871DA69FED0069C742 /* CAM */,
 				98B2DC731DA68FA50069C742 /* AppDelegate.h */,
 				98B2DC741DA68FA50069C742 /* AppDelegate.m */,
+				98B2DC911DA6B5020069C742 /* MyTableViewCell.h */,
+				98B2DC921DA6B5020069C742 /* MyTableViewCell.m */,
 				98B2DC761DA68FA50069C742 /* ViewController.h */,
 				98B2DC771DA68FA50069C742 /* ViewController.m */,
 				98B2DC791DA68FA50069C742 /* Main.storyboard */,
@@ -86,10 +101,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		98B2DC871DA69FED0069C742 /* CAM */ = {
+			isa = PBXGroup;
+			children = (
+				98B2DC881DA6A04D0069C742 /* MyAssetManager.h */,
+				98B2DC891DA6A04D0069C742 /* MyAssetManager.m */,
+				98B2DC8B1DA6A5940069C742 /* MyAssetItemImage.h */,
+				98B2DC8C1DA6A5940069C742 /* MyAssetItemImage.m */,
+				98B2DC8E1DA6B3D10069C742 /* MyAssetImageView.h */,
+				98B2DC8F1DA6B3D10069C742 /* MyAssetImageView.m */,
+			);
+			path = CAM;
+			sourceTree = "<group>";
+		};
 		A09B9F1FD2D70CE8ABDEAE77 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D5FE9868882C0892E99FFC29 /* libPods-cam-example.a */,
+				6AD65068703D3405DD983730 /* Pods_cam_example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -225,7 +253,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B2DC8A1DA6A04D0069C742 /* MyAssetManager.m in Sources */,
+				98B2DC931DA6B5020069C742 /* MyTableViewCell.m in Sources */,
+				98B2DC901DA6B3D10069C742 /* MyAssetImageView.m in Sources */,
 				98B2DC781DA68FA50069C742 /* ViewController.m in Sources */,
+				98B2DC8D1DA6A5940069C742 /* MyAssetItemImage.m in Sources */,
 				98B2DC751DA68FA50069C742 /* AppDelegate.m in Sources */,
 				98B2DC721DA68FA50069C742 /* main.m in Sources */,
 			);
