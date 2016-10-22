@@ -11,6 +11,7 @@
 
 @interface MyTableViewCell : UITableViewCell
 
-@property (weak, nonatomic) IBOutlet MyAssetImageView *asyncImageView;
+@property (nonatomic, strong) NSDictionary<NSString *, id> *ingredient;
+@property (weak, nonatomic) IBOutlet UILabel *pairLabel;
 
 @end

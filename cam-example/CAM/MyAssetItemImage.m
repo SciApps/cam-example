@@ -41,14 +41,9 @@
 - (NSURLRequest *)createURLRequest {
     NSMutableURLRequest *request = [NSMutableURLRequest new];
     
-    static NSString *baseUrlStr = @"http://4cdn.hu/";
-    static NSString *imageEndpoint = @"kraken/image/upload/";
+    NSURL *baseUrl = [NSURL URLWithString:super.assetName];
     
-    NSURL *baseUrl = [NSURL URLWithString:baseUrlStr];
-    NSURL *imageAssetEndPointUrl = [baseUrl URLByAppendingPathComponent:imageEndpoint];
-    NSURL *imageAssetUrl = [imageAssetEndPointUrl URLByAppendingPathComponent:super.assetName];
-    
-    [request setURL: imageAssetUrl];
+    [request setURL: baseUrl];
     [request setHTTPMethod:@"GET"];
     
     return request;

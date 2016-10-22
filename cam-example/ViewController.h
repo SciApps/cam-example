@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) NSArray<NSDictionary<NSString *, id> *> *allIngredients;
+@property (nonatomic, strong) NSArray<NSString *> *allEffects;
+@property (nonatomic, strong) NSDictionary<NSString *, NSDictionary<NSString *, id> *> *effectMap;
+@property (nonatomic) NSUInteger level;
 
 @end
 
